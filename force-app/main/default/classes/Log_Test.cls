@@ -92,7 +92,7 @@ private class Log_Test {
 	// HELPER
 
 	private static void enableLogEvents(Date day) {
-		insert new Settings__c(SetupOwnerId = UserInfo.getUserId(), dat_LogViaEvents__c = day);
+		insert new LogSettings__c(SetupOwnerId = UserInfo.getUserId(), dat_LogViaEvents__c = day);
 	}
 
 

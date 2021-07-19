@@ -1,1 +1,1 @@
-insert new Settings__c(SetupOwnerId = UserInfo.getUserId(), dat_LogViaEvents__c = System.today());
+insert new LogSettings__c(SetupOwnerId = UserInfo.getUserId(), dat_LogViaEvents__c = System.today());

@@ -115,7 +115,7 @@ public without sharing class Log {
 
 
 	private static Boolean logViaEvents() {
-		Settings__c settings = Settings__c.getValues(UserInfo.getUserId());
+		LogSettings__c settings = LogSettings__c.getValues(UserInfo.getUserId());
 		return (settings == null) ? false : (System.today() == settings.dat_LogViaEvents__c);
 	}
 
